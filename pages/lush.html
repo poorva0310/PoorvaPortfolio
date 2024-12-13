@@ -7,6 +7,24 @@
     <title>Responsive Project View</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+
+        .navbar {
+            background-color: #fff7f752;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+           
+            
+        }
+
+        .navbar-brand {
+            font-weight: bolder;
+            color: #403d39;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        
+        }
+        
         body {
             font-family: 'Arial', sans-serif;
             background: radial-gradient(circle, #f48258, #f9dfc2, rgb(241, 74, 107));
@@ -57,6 +75,21 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Poorva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                     </ul>
+            </div>
+        </div>
+    </nav>
+    
     <div class="container">
        
         <div class="row img-grid">
